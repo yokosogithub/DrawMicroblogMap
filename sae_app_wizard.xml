@@ -1,0 +1,7 @@
+<appwizard><introduction><name></name><author>yokoapp</author><icon></icon><homepage></homepage><description><![CDATA[练习PHP所用APP]]></description></introduction><platform><services><service></service><service name="mydomain"  params="数据存储">Storage</service><service>Mysql</service></services><appconfig><tpl><![CDATA[
+name: <<appname>>
+version: <<version>>
+version: 1
+...
+
+]]></tpl></appconfig></platform><code><initScript>index.php</initScript></code></appwizard>
